@@ -1,0 +1,14 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+#saving {
+	float: right;
+	width: 300px;
+}
+
+#checking {
+	float: left;
+	width: 300px;
+
+}
