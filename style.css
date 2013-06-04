@@ -2,13 +2,20 @@ body {
 	width: 800px;
 	margin: 0 auto;
 }
+h1 { 
+	margin: 50px;
+	color: blue;
+	text-align: center;
+}
 #saving {
 	float: right;
 	width: 300px;
+	padding: 30px 30px;
 }
 
 #checking {
 	float: left;
 	width: 300px;
+	padding: 30px 30px;
 
 }
