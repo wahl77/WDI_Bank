@@ -78,25 +78,25 @@ $(document).ready(function(){
 		var val1 = parseInt($('#check_sum').text());
 		switch (true){
 			case val1 < 100 :
-				$('#checking').css('background-color', 'red');
+				$('#checking').attr("class", "red")
 				break;
 			case val1 < 200 : 
-				$('#checking').css('background-color', 'yellow');
+				$('#checking').attr("class", "yellow")
 				break
 			default:
-					$('#checking').css('background-color', 'green');
+					$('#checking').attr("class", "blue")
 					break;
 		}
 		var val1 = parseInt($('#save_sum').text());
 		switch (true){
 			case val1 < 100 :
-				$('#saving').css('background-color', 'red');
+				$('#saving').attr("class", "red")
 				break;
 			case val1 < 200 : 
-				$('#saving').css('background-color', 'yellow');
+				$('#saving').attr("class", "yellow")
 				break
 			default:
-					$('#saving').css('background-color', 'green');
+				$('#saving').attr("class", "blue")
 					break;
 		}
 
